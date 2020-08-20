@@ -1,0 +1,9 @@
+<mj-section padding="48px 0 24px 0">
+  <mj-column>
+    <mj-text font-size="13px" line-height="20px" color="#8A8A8A" align="center">
+      Lorem ipsum dolor sit amet<br>
+      <br>
+      Copyright &copy; 2020 KoderKit
+    </mj-text>
+  </mj-column>
+</mj-section>

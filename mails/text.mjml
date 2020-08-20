@@ -1,0 +1,12 @@
+<mjml>
+  <mj-include path="./_head.mjml" />
+  <mj-body background-color="#FFF">
+    <mj-section padding="60px 60px 0 60px" background-url="image-6.png" background-repeat="no-repeat">
+      <mj-column>
+        <mj-text font-size="37px" font-weight="bold" line-height="42px" padding="0">Lorem ipusm</mj-text>
+        <mj-text font-size="20px" line-height="30px" padding="20px 0 10px 0">Lorem ipsum dolor sit amet</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-include path="./_footer.mjml" />
+  </mj-body>
+</mjml>

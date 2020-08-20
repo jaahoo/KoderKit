@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="cs" prefix="og: http://ogp.me/ns# fb: https://ogp.me/ns/fb#">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>KoderKit</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/png" />
+    <link rel="icon" href="./images/favicon.png" type="image/png" />
+    <meta name="description" content="KoderKit" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:title" content="KoderKit" />
+    <meta property="og:description" content="KoderKit" />
+    <meta property="og:image" content="/images/share.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:url" content="https://github.com/jaahoo/KoderKit" />
+    <meta property="og:site_name" content="KoderKit" />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script
+      src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"
+      defer
+    ></script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      {% include "_header.html" %}
+      {% block content %}{% endblock %} 
+      {% include "_footer.html" %}
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ["Roboto:400,900:latin-ext"],
+        },
+      });
+    </script>
+    <script type="text/javascript" src="./app.min.js" charset="utf-8"></script>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+<mj-font name="Mukta" href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&display=swap" />
+<mj-style inline="inline">
+  body {
+    font-family: 'Mukta', sans-serif;
+    color: #000;
+  }
+</mj-style>
