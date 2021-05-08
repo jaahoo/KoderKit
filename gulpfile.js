@@ -6,6 +6,7 @@ const sourcemaps = require("gulp-sourcemaps");
 const babel = require("gulp-babel");
 const uglify = require("gulp-uglify");
 const rename = require("gulp-rename");
+const imagemin = require('gulp-imagemin');
 
 const postcss = require("gulp-postcss");
 const precss = require("precss");
@@ -72,6 +73,10 @@ task("images", () =>
   src("src/images/**/*.+(gif|jpg|png|svg|ico)").pipe(gulp.dest("dist/images"))
 );
 
+task("imagesOptim", () => {
+  return gulp.src('src/images/**/*.+(gif|jpg|png|svg|ico)').pipe(imagemin()).pipe(gulp.dest('dist/images'))
+})
+
 task("watch", () => {
   watch(
     [
@@ -112,6 +117,6 @@ exports.server = series([
 exports.default = series([
   task("markup"),
   task("styles"),
-  task("images"),
+  task("imagesOptim"),
   task("scripts"),
 ]);
