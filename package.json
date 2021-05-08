@@ -20,7 +20,6 @@
     "autoprefixer": "^9.7.6",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
-    "gulp-concat": "^2.6.1",
     "gulp-htmlmin": "^5.0.1",
     "gulp-nunjucks-render": "^2.2.3",
     "gulp-postcss": "^8.0.0",

@@ -4,7 +4,6 @@ const { task, src, watch, series } = require("gulp");
 const webpack = require("webpack-stream");
 const sourcemaps = require("gulp-sourcemaps");
 const babel = require("gulp-babel");
-const concat = require("gulp-concat");
 const uglify = require("gulp-uglify");
 const rename = require("gulp-rename");
 
