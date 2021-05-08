@@ -58,6 +58,9 @@ task("markup", () => {
   return src("src/html/**/*.+(html|nj|nunjucks)")
     .pipe(
       njRender({
+        data: {
+          currentYear: new Date().getFullYear(),
+        },
         path: ["src/templates/"],
       })
     )
